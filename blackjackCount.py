@@ -19,7 +19,7 @@ while deckCount < decksUsed:
         deck.append([str(face) + "H", value])
         deck.append([str(face) + "S", value])
     deckCount += 1
-#random.shuffle(deck)
+random.shuffle(deck)
 
 totalCount = decksUsed * 52
 cardCount = 0
